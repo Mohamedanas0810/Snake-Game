@@ -19,15 +19,16 @@ class Border:
                 self.shadow.goto(270,260)
                 self.shadow.setheading(self.heading)
             elif self.heading == 180:
-                self.shadow.goto(-278,260)
+                self.shadow.goto(-280,260)
                 self.shadow.setheading(self.heading)
             elif self.heading == 270:
-                self.shadow.goto(-278,-270)
+                self.shadow.goto(-280,-260)
                 self.shadow.setheading(self.heading)
             elif self.heading == 360:
-                self.shadow.goto(270,-270)
+                self.shadow.goto(270,-260)
                 self.shadow.setheading(self.heading)
             elif self.heading == 450:
                 self.shadow.goto(270,0)
             self.heading += 90
+
 
