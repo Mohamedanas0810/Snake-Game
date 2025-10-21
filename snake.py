@@ -77,7 +77,7 @@ class Snake:
 
     #Detect Wall collison
     def detect_wall_collison(self):
-        if self.head.xcor() > 240 or self.head.xcor() < -240 or self.head.ycor() > 245 or self.head.ycor() < -240:
+        if self.head.xcor() > 250 or self.head.xcor() < -260 or self.head.ycor() > 250 or self.head.ycor() < -250:
             return False
         else:
             return True
